@@ -14,6 +14,7 @@ div#barra-lateral{
 	background-color:#17d34f;
 	overflow:hidden;
 	-webkit-transition:width 0.5s cubic-bezier(.61,.01,.37,1);
+    border: 5px solid black;
 }
 
 div#barra-lateral:hover{
@@ -26,20 +27,66 @@ p.title-menu{
 	text-decoration: underline
 }
 
-/*body*/
+/*Body*/
 
 div#body{
 	position:absolute;
 	right:0px;
 	left:170px;
     min-height:100px;
-    background-color: rgb(47, 189, 94);
-	background-image:  url("https://th.bing.com/th/id/OIP.6RjRPCeaD-IZWOdSCvUq2gHaCB?pid=ImgDet&rs=1");
+    background-color: rgb(248, 252, 249);
+    
+	
 }
+
+/*p#texto-body{
+	margin:30px;
+	margin-top:200px;
+	color:#0c0101;
+	font-style: oblique;
+	font-weight: bold;
+    border: 5px solid black;
+}*/
+
+  fieldset
+{
+    margin:20px;
+    margin-top:150px;
+    background-color:rgb(255, 255, 255);
+    max-width:500px;
+    padding:200px;	
+    border:5px solid green;
+}
+
+
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button-2 {
+    border: none;
+    color: white;
+    padding: px 450px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
 
 div#texto-titulo{
 	width:50%;
-	min-height:100px;
+	min-height:130px;
 	background-color: rgb(47, 189, 94) ;
 	background-image:  url("https://th.bing.com/th/id/OIP.6RjRPCeaD-IZWOdSCvUq2gHaCB?pid=ImgDet&rs=1");
     float: right;
@@ -60,7 +107,7 @@ div#imagen-titulo{
 	min-height:100px;
 	background-color: rgb(47, 189, 94);
 	background-image:  url("https://th.bing.com/th/id/OIP.6RjRPCeaD-IZWOdSCvUq2gHaCB?pid=ImgDet&rs=1");
-    float: right;
+    float: left;
 }
 
 img#imagen-titulo{
@@ -70,8 +117,17 @@ img#imagen-titulo{
 	margin-bottom: 1%;
     width: 200px;
 	border: 5px solid #ddd;
-
 }
 
 
 
+
+/*<form action="/action_page.php">
+<fieldset>
+<legend>CONTACTO:</legend>
+<input type="text" class="form-control" placeholder="nombre" aria-label="Nombre" ><br><br>
+<input type="text" class="form-control" placeholder="edad" aria-label="edad"><br><br>
+<input type="email"class="form-control" placeholder="e-mail" aria-label="e-mail" id="email" name="email"><br><br>
+<textarea class="form-control" placeholder="sugerencias" aria-label="With textarea"></textarea>
+</fieldset>
+</form>*/
