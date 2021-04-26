@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    font-family: sans-serif;
+    
+}
+
+.barra-lateral{
+    position: fixed;
+    width: 60px;
+    height: 100%;
+    background-color: rgb(23, 245, 119);
+    overflow: hidden;
+
+}
+
+
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 50px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+
+.sub-titulo{
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.contenedor img{
+    width: 300;
+    height: 200;
+
+
+
+}
+
+.contenedor p{
+    text-align: justify;
+    font-size: 18px;
+    
+}
+
+
+
+
+
