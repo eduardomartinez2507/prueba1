@@ -1,87 +1,57 @@
 *{
-	margin:0px;
-	padding:0px;
-	font-family: verdana;
-	color:#070000;    
-}
-
-/*menu lateral*/
-
-div#barra-lateral{
-	position:fixed;
-	width:40px;
-	height:100%;
-	background-color:#17d34f;
-	overflow:hidden;
-	-webkit-transition:width 0.5s cubic-bezier(.61,.01,.37,1);
-}
-
-div#barra-lateral:hover{
-	width:150px;
-}
-
-p.title-menu{
-	margin-left: 49px;
-	line-height: 70px;
-	text-decoration: none;
-}
-
-/*body*/
-
-div#header{
-	position:absolute;
-	right:0px;
-	left:180px;
-    min-height:100px;
-    background-color: rgb(47, 189, 94);
-	background-image:  url("https://th.bing.com/th/id/OIP.6RjRPCeaD-IZWOdSCvUq2gHaCB?pid=ImgDet&rs=1");
-}
-
-div#body{
-	position:absolute;
-	right:0px;
-	left:180px;
-    min-height:100px;
-    background-color: rgb(47, 189, 94);
-	background-image:  url("https://th.bing.com/th/id/OIP.6RjRPCeaD-IZWOdSCvUq2gHaCB?pid=ImgDet&rs=1");
-}
-
-div#texto-titulo{
-	width:50%;
-	min-height:100px;
-	background-color: rgb(47, 189, 94) ;
-	background-image:  url("https://th.bing.com/th/id/OIP.6RjRPCeaD-IZWOdSCvUq2gHaCB?pid=ImgDet&rs=1");
-    float: right;
-}
-
-p#texto-titulo{
-	margin:30px;
-	margin-top:50px;
-	color:#0c0101;
-	font-style: oblique;
-	font-weight: bold;
-	text-shadow: 2px 2px 5px blue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
 
 
-div#imagen-titulo{
-    width:50%;
-	min-height:100px;
-	background-color: rgb(47, 189, 94);
-	background-image:  url("https://th.bing.com/th/id/OIP.6RjRPCeaD-IZWOdSCvUq2gHaCB?pid=ImgDet&rs=1");
-    float: right;
+body{
+    font-family: sans-serif;
+    
 }
 
-img#imagen-titulo{
-    display: block;
+.barra-lateral{
+    position: fixed;
+    width: 60px;
+    height: 100%;
+    background-color: rgb(23, 245, 119);
+    overflow: hidden;
+
+}
+
+
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
     margin: auto;
-	margin-top: 1%;
-	margin-bottom: 1%;
-    width: 200px;
-	border: 5px solid #ddd;
+    padding: 60px;
+    margin-top: 50px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+
+.sub-titulo{
+    font-size: 30px;
+    font-weight: 400;
 
 }
 
-#container{
-    align-items: center;
+.contenedor img{
+    width: 300;
+    height: 200;
+
+
+
+}
+
+.contenedor p{
+    text-align: justify;
+    font-size: 18px;
+    
 }
